@@ -1,0 +1,23 @@
+{
+  "name": "localdata-tasks",
+  "version": "0.0.1",
+  "description": "LocalData background task worker",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "main": "index.js",
+  "author": "Prashant Singh",
+  "license": "BSD New",
+  "dependencies": {
+    "async": "^0.9.0",
+    "knox": "^0.9.0",
+    "lodash": "^2.4.1",
+    "minimist": "^0.2.0",
+    "mongoose": "^3.8.14",
+    "node-resque": "^0.8.4",
+    "node-uuid": "^1.4.1",
+    "redis": "^0.10.1",
+    "uuid": "^1.4.1",
+    "xml2js": "^0.4.4"
+  }
+}

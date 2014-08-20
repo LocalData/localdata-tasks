@@ -1,0 +1,8 @@
+# osx noise
+.DS_Store
+profile
+
+*.env
+!sample.env
+node_modules
+.jslintrc
