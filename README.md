@@ -28,6 +28,8 @@ To enqueue a job:
 $ envrun -e local.env node lib/enqueue.js export csv-exporter '{"survey":"da3a46e0-8be9-11e3-8d76-69d42aceef14","s3Object":"test1","bucket":"localdata-export"}'
 ```
 
+The Shapefile exporter requires a valid ogr2ogr in the path and uses a Heroku buildpack, specified via the multi-buildpack and the `.buildpacks` file, to provide the ogr2ogr dependency on Heorku.
+
 ### TODO
 + Factor out the workers into separate repos.
 + Create a heroku buildpack that lets us install workers based on an environment variable
